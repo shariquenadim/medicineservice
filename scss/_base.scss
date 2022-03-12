@@ -1,0 +1,67 @@
+//COLORS
+$color-primary : #7ed56f;
+$color-primary-dark : #28b485;
+
+$color-gray-dark : #777;
+$color-gray-dark-2 : rgb(100,100,100);
+$color-gray-dark-3 : #333;
+
+$color-secondary-light : #ace429;
+$color-secondary-dark : #ff7730;
+
+$color-blue-light : #8ee4af;
+$color-blue-dark : #125D98;
+
+$color-white: #fff;
+
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Ubuntu', sans-serif;
+$font-heading: 'Lobster', sans-serif;
+
+// BREAKPOINT
+$bp-largest: 75em; //1200px
+$bp-large: 62.5em; //1000px
+$bp-medium: 50em; //800px
+$bp-small: 37.5em; //600px
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+button {
+   outline: none;
+   border-radius: 5px;
+   cursor: pointer;
+
+   &:focus, &:hover {
+      outline: none;
+   }
+}
+
+a {
+   text-decoration: none;
+}
