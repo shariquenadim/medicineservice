@@ -36,4 +36,32 @@ img{
     font-weight: 600;
     color: rgb(234, 240, 240);
 }
-
+#Aboutpara{
+    display: flex;
+}
+#aboutwork h3{
+    font-size: 2rem;
+}
+#About h2{
+    font-size: 2rem;
+}
+#aboutwork{
+    width: 40%;
+    padding: 1%;
+    background-color: rgb(202, 240, 209);
+    height: 30vh;
+}
+#social{
+    width: 40%;
+    font-size: 1.5rem;
+    padding: 1%;
+    background-color: rgb(202, 240, 209);
+    height: 20vh;
+}
+#About {
+    padding: 1%;
+    width: 120vw;
+}
+#purpose h1{
+    transform: translate(30vh);
+}
