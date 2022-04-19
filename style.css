@@ -1,67 +1,111 @@
-.footer{
+.footer {
     height: 30vh;
     display: flex;
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)); 
-    
-    
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+
+
     align-items: center;
     justify-content: center;
 }
-.address{
+
+.address {
     font-size: 1.75rem;
 }
-footer section div{
+
+footer section div {
     width: 25vw;
     padding-left: 3%;
     color: #fff;
 
 }
 
-img{
+img {
     padding: 2vh;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     background-color: rgb(17, 4, 4);
     font-size: 2vh;
     color: beige;
-    
+
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.address h1{
+
+.address h1 {
     font-size: 4rem;
     font-weight: 600;
     color: rgb(234, 240, 240);
 }
-#Aboutpara{
+
+#Aboutpara {
     display: flex;
 }
-#aboutwork h3{
+
+#aboutwork h3 {
     font-size: 2rem;
 }
-#About h2{
+
+#About h2 {
     font-size: 2rem;
 }
-#aboutwork{
+
+#aboutwork {
     width: 40%;
     padding: 1%;
     background-color: rgb(202, 240, 209);
     height: 30vh;
 }
-#social{
+
+#social {
     width: 40%;
     font-size: 1.5rem;
     padding: 1%;
     background-color: rgb(202, 240, 209);
     height: 20vh;
 }
+
 #About {
     padding: 1%;
     width: 120vw;
 }
-#purpose h1{
+
+#purpose h1 {
     transform: translate(30vh);
+}
+
+#form {
+    font-size: medium;
+    text-align: center;
+    padding: 4%;
+    font-size: 2rem;
+    background-image: linear-gradient(to right bottom, rgba(227, 236, 235, 0.8), rgba(185, 245, 239, 0.8));
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#form_cont {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3%;
+
+
+}
+#submit{
+    width: 15%;
+    height: 8%;
+    font-size: 2rem;
+    background-color: rgb(227, 26, 26);
+    color: #fff;
+}
+#form_cont label{
+    font-weight: 400;
 }
